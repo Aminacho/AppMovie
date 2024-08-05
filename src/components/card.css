@@ -1,0 +1,15 @@
+.card {
+  display: inline-block;
+  margin: 10px;
+  /* background-image: linear-gradient(to top, rgb(253, 253, 198), white); */
+  /* background-color: beige; */
+}
+.movies-container {
+  background-color: rgb(16, 36, 36);
+  margin-top: 30px;
+  padding: 10px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
