@@ -49,6 +49,7 @@ function AddMovie({ setMoviesData, moviesData }) {
           <Form.Control
             type="number"
             min={1}
+            max={5}
             placeholder="Movie Rating"
             onChange={(e) => {
               setNewMovie({ ...newMovie, rating: Number(e.target.value) });

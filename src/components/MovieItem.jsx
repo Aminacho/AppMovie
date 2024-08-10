@@ -11,7 +11,7 @@ function MovieItem({ title, description, poster, rating }) {
         <Card.Text>{description}</Card.Text>
       </Card.Body>
       <ListGroup className="list-group-flush">
-        <ListGroup.Item>{rating}</ListGroup.Item>
+        <ListGroup.Item>{"⭐".repeat(rating)}</ListGroup.Item>
       </ListGroup>
       <Card.Body>
         <Card.Link href="#">Watch</Card.Link>

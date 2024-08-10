@@ -5,7 +5,7 @@ import MovieItem from "./MovieItem";
 import Numb from "./Numb";
 import AddMovie from "./AddMovie";
 
-function MoviesList({ search }) {
+function MoviesList({ search, rate }) {
   const [moviesData, setMoviesData] = useState(data);
   return (
     <div>
@@ -15,6 +15,7 @@ function MoviesList({ search }) {
           .filter((movie) =>
             movie.title.toLowerCase().includes(search.toLowerCase())
           )
+          .filter((movie) => (rate ? movie.rating === rate : movie))
 
           .map((movie, i) => (
             <MovieItem key={i} {...movie} />

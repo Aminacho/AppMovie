@@ -10,11 +10,12 @@ import { useState } from "react";
 
 function App() {
   const [search, setSearch] = useState("");
+  const [rate, setRate] = useState(0);
   return (
     <div className="App">
-      <NavBar setSearch={setSearch} />
+      <NavBar setSearch={setSearch} setRate={setRate} />
       {/* <AddMovie /> */}
-      <MoviesList search={search} />
+      <MoviesList rate={rate} search={search} />
       <Footer />
     </div>
   );

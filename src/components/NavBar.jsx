@@ -1,7 +1,11 @@
 import React from "react";
+import ReactStars from "react-stars";
 import { Button, Container, Form, Nav, Navbar } from "react-bootstrap";
 
-function NavBar({ setSearch }) {
+function NavBar({ setSearch, setRate }) {
+  const ratingChanged = (newRating) => {
+    setRate(newRating);
+  };
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container fluid>
@@ -25,6 +29,13 @@ function NavBar({ setSearch }) {
             <Nav.Link href="#" disabled>
               Trailers
             </Nav.Link>
+            <ReactStars
+              count={5}
+              onChange={ratingChanged}
+              size={24}
+              color2={"#ffd700"}
+              half={false}
+            />
           </Nav>
           <Form className="d-flex">
             <Form.Control

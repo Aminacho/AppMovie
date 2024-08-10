@@ -46,7 +46,7 @@ export const data = [
       "Doctor Strange suit l'histoire du Docteur Stephen Strange, talentueux neurochirurgien qui, après un tragique accident de voiture, doit mettre son égo de côté et apprendre les secrets d'un monde caché de mysticisme et de dimensions alternatives. Basé à New York. ",
     poster:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp9R1BpFpCG6UC6Tkq3fwMUHZ02RHw5XyQlw&s",
-    rating: 5,
+    rating: 3,
   },
   {
     title: "Thor",
@@ -54,6 +54,6 @@ export const data = [
       "  Thor est une série de films appartenant à l’Univers cinématographique Marvel, composée de quatre opus, et basée sur les personnages de comics créés par Stan Lee et Jack Kirby : Thor, réalisé par Kenneth Brannagh ; Thor : Le Monde des ténèbres, réalisé par Alan Taylor ; Thor : Ragnarok",
     poster:
       "https://m.media-amazon.com/images/M/MV5BOGE4NzU1YTAtNzA3Mi00ZTA2LTg2YmYtMDJmMThiMjlkYjg2XkEyXkFqcGdeQXVyNTgzMDMzMTg@._V1_FMjpg_UX1000_.jpg",
-    rating: 5,
+    rating: 4,
   },
 ];
